@@ -1,0 +1,41 @@
+/* Section Container */
+.contact-section {
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+    padding-top: 3rem; /* Equivalent to py-12 */
+    padding-bottom: 3rem;
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem;
+  }
+  
+  .contact-section.sm-padding {
+    padding-left: 1.5rem; /* Equivalent to sm:px-6 */
+    padding-right: 1.5rem;
+  }
+  
+  .contact-section.lg-padding {
+    padding-left: 2rem; /* Equivalent to lg:px-8 */
+    padding-right: 2rem;
+  }
+  
+  /* Section Heading */
+  .contact-heading {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: 800; /* Equivalent to font-extrabold */
+    color: #1f2937; /* Equivalent to text-gray-900 */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+  }
+  
+  /* Social Media Links */
+  .contact-links {
+    display: flex; /* Equivalent to flex */
+    align-items: center; /* Equivalent to items-center */
+  }
+  
+  .contact-link {
+    display: flex; /* Equivalent to flex */
+    align-items: center; /* Equivalent to items-center */
+    margin-right: 2rem; /* Equivalent to mr-[2rem] */
+    text-decoration: none;
+    color: #1f2937; /* Equivalent to text-gray-900 */
+    transition: color 0.2s ease-in-out; /* Smooth color change on hover */
+  

@@ -1,0 +1,44 @@
+/* Container Styling */
+.tabs-container {
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  
+  /* Tab Buttons Container */
+  .tabs-header {
+    display: flex;
+    gap: 8px;
+     /* Equivalent to border-gray-200 */
+  }
+  
+  /* Individual Tab Button */
+  .tab-button {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 1rem; /* Equivalent to py-2 px-4 */
+    font-weight: 500; /* Equivalent to font-medium */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #4b5563; /* Equivalent to text-gray-600 */
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+    margin-bottom: 2.5rem;
+  }
+  
+  .tab-button:hover {
+    color: #1f2937; /* Slightly darker gray for hover effect */
+  }
+  
+  /* Active Tab */
+  .tab-button.active {
+    border-bottom: 2px solid #000; /* Equivalent to border-b-2 */
+    color: #000; /* Active color for text */
+  }
+  
+  /* Icon and Label Styling */
+  
+  .content-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+  

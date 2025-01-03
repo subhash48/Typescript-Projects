@@ -1,0 +1,43 @@
+/* About Section Container */
+.about-section {
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+    padding-top: 3rem; /* Equivalent to py-12 */
+    padding-bottom: 3rem;
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem;
+  }
+  
+  .about-section.sm-padding {
+    padding-left: 1.5rem; /* Equivalent to sm:px-6 */
+    padding-right: 1.5rem;
+  }
+  
+  .about-section.lg-padding {
+    padding-left: 2rem; /* Equivalent to lg:px-8 */
+    padding-right: 2rem;
+  }
+  
+  /* Content Container */
+  .about-content {
+    max-width: 64rem; /* Equivalent to max-w-4xl */
+    margin: 0 auto; /* Equivalent to mx-auto */
+  }
+  
+  /* Heading */
+  .about-heading {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: 800; /* Equivalent to font-extrabold */
+    color: #1f2937; /* Equivalent to text-gray-900 */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+  }
+  
+  /* Paragraph */
+  .about-paragraph {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    color: #4b5563; /* Equivalent to text-gray-700 */
+  }
+  
+  .about-paragraph + .about-paragraph {
+    margin-top: 1rem; /* Equivalent to mt-4 */
+  }
+  

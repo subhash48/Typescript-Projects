@@ -1,0 +1,53 @@
+/* Card Container */
+.card {
+    max-width: 24rem; /* Equivalent to max-w-sm */
+    margin: 1rem auto; /* Equivalent to mx-auto and m-[1rem] */
+    background-color: #1a1c1e; /* Dark background color */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    overflow: hidden; /* Clip child content to match rounded corners */
+  }
+  
+  /* Card Image */
+  .card img {
+    width: 100%;
+    height: 12rem; /* Equivalent to h-48 */
+    object-fit: cover; /* Keeps image aspect ratio while filling space */
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 1.5rem; /* Equivalent to p-6 */
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 700; /* Equivalent to font-bold */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+    color: white;
+  }
+  
+  /* Card Description */
+  .card-description {
+    color: #4b5563; /* Equivalent to text-gray-700 */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
+  /* Card Button */
+  .card-button {
+    display: inline-block;
+    padding: 0.5rem 1rem; /* Equivalent to px-4 py-2 */
+    background-color: white;
+    color: black;
+    font-weight: 600; /* Equivalent to font-semibold */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: 0.2s ease, color 0.2s ease; /* Smooth hover transition */
+  }
+  
+  .card-button:hover {
+    background-color: #4b5563; /* Equivalent to hover:bg-gray-600 */
+    color: white; /* Equivalent to hover:text-white */
+  }
+  

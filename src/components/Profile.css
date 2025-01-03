@@ -1,0 +1,71 @@
+.banner{
+    margin-left: 40px;
+    position: relative;
+}
+
+.btn-1{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+input{
+    display: none;
+   
+}
+
+label{
+    position: absolute;
+    left: 6px;
+    bottom: 3px;
+}
+
+.banner-img{
+   
+    height: 400px;
+    width: 1500px;
+    object-fit: cover;
+}
+
+/* ************************************ */
+.profile{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-left: 7%;
+    margin-top: 2%;
+    
+}
+
+.profile-img{
+    height: inherit;
+    width: inherit;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+.btn-2{
+    position: absolute;
+    left: 3.5rem;
+    bottom: -10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+/* ************************* */
+
+.content{
+    position: relative;
+    margin-left: 20%;
+    margin-top: -10%;
+}
+
+
+
+
+
